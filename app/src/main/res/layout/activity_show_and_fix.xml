@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showAndFix">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/names"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="65" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:text="fix"
+                android:onClick="fix"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/clas"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:ems="10"
+                android:hint="class"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="10" />
+
+            <EditText
+                android:id="@+id/grad"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="40"
+                android:ems="10"
+                android:hint="grade"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="23"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="42.5"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/v1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="38" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="2" />
+
+                <EditText
+                    android:id="@+id/where1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="25"
+                    android:ems="10"
+                    android:hint="where?(1)"
+                    android:inputType="textPersonName" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/when1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="30"
+                    android:ems="10"
+                    android:hint="When?(1)"
+                    android:inputType="date" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="42.5"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/v2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="38" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="2" />
+
+                <EditText
+                    android:id="@+id/where2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="25"
+                    android:ems="10"
+                    android:hint="Where?(2)"
+                    android:inputType="textPersonName" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/when2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="30"
+                    android:ems="10"
+                    android:hint="When?(2)"
+                    android:inputType="date" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="45" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

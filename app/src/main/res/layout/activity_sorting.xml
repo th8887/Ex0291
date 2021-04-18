@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sorting">
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="20"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="42.5">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="50"
+                    android:onClick="sbc"
+                    android:text="Sort By Class"
+                    android:textSize="14sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="50"
+                    android:onClick="sbctv"
+                    android:text="Sort By Can't Take Vaccine"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="50"
+                    android:onClick="sbg"
+                    android:text="Sort By Grade(ABC)"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="50"
+                    android:onClick="sbtv"
+                    android:text="Sort By Took Vaccine(classes)"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+        <ListView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="65" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+</LinearLayout>

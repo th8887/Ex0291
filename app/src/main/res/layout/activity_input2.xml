@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Input2">
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="5" />
+
+        <Spinner
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="13" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="33.3"
+                android:onClick="v2"
+                android:text="second vaccine" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="33.3"
+                android:onClick="v1"
+                android:text="first vaccine" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="33.4"
+                android:onClick="v0"
+                android:text="Can't take the vaccine" />
+        </RadioGroup>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2" />
+
+        <EditText
+            android:id="@+id/when"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="DD/MM/YY"
+            android:inputType="date" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2" />
+
+        <EditText
+            android:id="@+id/where"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="where?"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:onClick="sub2"
+            android:text="submit" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="45" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+</LinearLayout>

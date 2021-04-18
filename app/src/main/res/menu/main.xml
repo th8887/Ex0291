@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Filling Personal Info"
+        android:orderInCategory="100"
+        android:onClick="ma"/>
+    <item
+        android:title="Filling Medical Info"
+        android:orderInCategory="150"
+        android:onClick="i2"/>
+    <item
+        android:title="Show &amp; Fix Info"
+        android:orderInCategory="200"
+        android:onClick="sf"/>
+    <item
+        android:title="Organize Info"
+        android:orderInCategory="300"
+        android:onClick="or"/>
+    <item
+        android:title="Credits"
+        android:orderInCategory="400"
+        android:onClick="cr"/>
+</menu>
